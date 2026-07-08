@@ -1,0 +1,52 @@
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Make.com / API keys or exported secrets
+config/secrets*
+**/api-keys*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Node (if any tooling/scripts added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# Generated / temp files
+*.tmp
+*.bak
+dist/
+build/
+
+# Airtable / data exports (avoid committing real user data)
+*.csv
+!docs/*.csv
+data/*.json
+!config/*.json
