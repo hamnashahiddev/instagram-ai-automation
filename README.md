@@ -51,11 +51,11 @@ graph TD
 
 ## 🖇️ Workflow Diagram
 
-![Workflow Diagram](docs/workflow-diagram.png)
+![Workflow Diagram](workflow/workflow-diagram.png)
 
 ## ⚙️ Make.com Scenario
 
-![Make.com Scenario](docs/scenario-diagram.png)
+![Make.com Scenario](workflow/scenario-diagram.png)
 
 ---
 
